@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/totalBalanceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Balance: $0.00"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="8dp"
+            android:gravity="center" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/accountsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="8dp" />
+    </LinearLayout>
+
+    <!-- FAB: Add Account (Bottom Left) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="124dp"
+        android:src="@drawable/ic_add_account"
+        android:background="#FF0000"
+        android:contentDescription="Add Account"
+        android:tint="@android:color/white" />
+
+    <!-- FAB: Add Transaction (Bottom Right, moved slightly up) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddTransaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/plus"
+        android:background="#00FF0A"
+        android:contentDescription="Add Transaction"
+        android:tint="@android:color/white" />
+</FrameLayout>

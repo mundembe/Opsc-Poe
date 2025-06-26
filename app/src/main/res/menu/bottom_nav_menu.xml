@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--        TODO : Add appropriate icons-->
+    <item
+        android:id="@+id/accountsFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Accounts" />
+    <item
+        android:id="@+id/budgetGoalsFragment"
+    android:icon="@drawable/ic_launcher_background"
+    android:title="Budgets"/>
+    <item
+        android:id="@+id/challengesFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Challenges" />
+    <item
+        android:id="@+id/notificationsFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Alerts" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Settings" />
+</menu>

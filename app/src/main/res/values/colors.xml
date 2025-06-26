@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme variants -->
+    <color name="primary_color">#BB86FC</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <color name="divider">#1EFFFFFF</color>  <!-- White with 12% opacity -->
+    <color name="budget_over">#D32F2F</color>      <!-- Red for over budget -->
+    <color name="budget_warning">#FFA000</color>   <!-- Amber for warning (80%+) -->
+    <color name="budget_ok">#388E3C</color>        <!-- Green for OK budget -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green_500">#4CAF50</color> <!-- Material Design green -->
+    <color name="red_500">#F44336</color>
+</resources>

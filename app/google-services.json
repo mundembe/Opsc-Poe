@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "70965704291",
+    "project_id": "cash-flow-quest",
+    "storage_bucket": "cash-flow-quest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70965704291:android:00de5d95388a30b09b2a56",
+        "android_client_info": {
+          "package_name": "com.example.cashflowquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL2IsR0BuQRvddKnl9YbbbSPjDv5G8cEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

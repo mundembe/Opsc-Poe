@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/accountsFragment">
+
+    <!-- Accounts Fragment -->
+    <fragment
+        android:id="@+id/accountsFragment"
+        android:name="com.example.cashflowquest.ui.accounts.AccountsFragment"
+        android:label="Accounts"
+        tools:layout="@layout/fragment_accounts">
+
+        <action
+            android:id="@+id/action_accountsFragment_to_addTransactionFragment"
+            app:destination="@id/addTransactionFragment" />
+    </fragment>
+
+    <!-- Budget Goals Fragment -->
+    <fragment
+        android:id="@+id/budgetGoalsFragment"
+        android:name="com.example.cashflowquest.ui.budget.BudgetGoalsFragment"
+        android:label="Budget &amp; Goals"
+        tools:layout="@layout/fragment_budget_goals">
+
+        <action
+            android:id="@+id/action_budgetGoalsFragment_to_createBudgetFragment"
+            app:destination="@id/createBudgetFragment" />
+
+        <action
+            android:id="@+id/action_budgetGoalsFragment_to_budgetDetailFragment"
+            app:destination="@id/budgetDetailFragment" />
+    </fragment>
+
+    <!-- Create Budget Fragment -->
+    <fragment
+        android:id="@+id/createBudgetFragment"
+        android:name="com.example.cashflowquest.ui.budget.CreateBudgetFragment"
+        android:label="Create Budget"
+        tools:layout="@layout/fragment_create_budget" />
+
+    <!-- Budget Detail Fragment -->
+    <fragment
+        android:id="@+id/budgetDetailFragment"
+        android:name="com.example.cashflowquest.ui.budget.BudgetDetailFragment"
+        android:label="Budget Details"
+        tools:layout="@layout/fragment_budget_detail">
+        <argument
+            android:name="budgetId"
+            app:argType="integer" />
+    </fragment>
+
+    <!-- Challenges Fragment -->
+    <fragment
+        android:id="@+id/challengesFragment"
+        android:name="com.example.cashflowquest.ui.challenges.ChallengesFragment"
+        android:label="Challenges" />
+
+    <!-- Notifications Fragment -->
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.cashflowquest.ui.NotificationsFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.cashflowquest.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <!-- Add Transaction Fragment -->
+    <fragment
+        android:id="@+id/addTransactionFragment"
+        android:name="com.example.cashflowquest.ui.transaction.AddTransactionFragment"
+        android:label="Add Transaction"
+        tools:layout="@layout/fragment_add_transaction" />
+
+</navigation>

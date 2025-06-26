@@ -1,0 +1,33 @@
+<resources>
+    <string name="hello_blank_fragment">Welcome!</string>
+    <string name="app_name">CashFlowQuest</string>
+    <string name="account_name_placeholder">Account Name</string>
+    <string name="account_balance_placeholder">$0.00</string>
+    <!-- Budget Goals Fragment -->
+    <string name="budget_goals_title">Budget Goals</string>
+    <string name="no_budgets_message">No budgets created yet\nTap + to add your first budget</string>
+    <string name="budget_remaining">Remaining: $%1$.2f</string>
+    <string name="add_budget">Add Budget</string>
+
+    <!-- Budget Status -->
+    <string name="budget_status_ok">On track</string>
+    <string name="budget_status_warning">Approaching limit</string>
+    <string name="budget_status_over">Over budget</string>
+
+    <!-- Budget Dialog Messages -->
+    <string name="delete_budget_title">Delete Budget</string>
+    <string name="delete_budget_message">Are you sure you want to delete this budget?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Snackbar Messages -->
+    <string name="budget_created">Budget created successfully</string>
+    <string name="budget_deleted">Budget deleted</string>
+    <string name="budget_update_failed">Failed to update budget</string>
+    <string name="budget_delete_failed">Failed to delete budget</string>
+
+    <!-- Validation Messages -->
+    <string name="error_category_empty">Category cannot be empty</string>
+    <string name="error_limit_invalid">Limit must be a positive number</string>
+    <string name="error_category_exists">Budget category already exists</string>
+</resources>
